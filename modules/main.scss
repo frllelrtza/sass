@@ -1,0 +1,23 @@
+// .header ul, .footer ul{
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+
+// .header ul li,
+// .footer ul li{
+//     display: inline-block;
+// }
+
+//mixin
+// @import 'moduls/mixin','moduls/header','moduls/container', 'moduls/footer';
+
+
+@use 'moduls/header';
+@use 'moduls/container';
+@use 'moduls/footer';
+
+
+
+
+

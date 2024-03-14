@@ -1,0 +1,50 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+}
+.header ul li a {
+  color: white;
+  padding: 0.7em;
+  text-decoration: none;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  background-color: green;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: wheat;
+  padding: 0.4em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: #bada55;
+  text-align: center;
+  line-height: 60px;
+}/*# sourceMappingURL=main.css.map */
